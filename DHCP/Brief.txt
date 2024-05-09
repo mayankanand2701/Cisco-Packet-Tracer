@@ -1,0 +1,18 @@
+The full form of DHCP is Dynamic Host Configuration Protocol. The Dynamic Host Configuration Protocol is a network management protocol. It is used on Internet Protocol networks and automatically assigns an IP address to the devices connected to the network using a client-server architecture.
+
+The DHCP clients send a request to the DHCP server and the DHCP server replies to the information requested by the DHCP client.
+
+Advantages of DHCP :
+
+- DHCP is easy to implement, it automatically assigns the IP address to the devices thus time to assign an IP address manually can be reduced.
+- The implementation of DHCP doesn’t require any additional cost.
+- DHCP simplifies the administration of the network.
+- It supports multiple scopes like multicast scope, super scope, etc.
+- Valid configuration parameters can be automatically obtained from the new network which is beneficial for mobile users.
+
+Disadvantages of DHCP :
+
+- It is mandatory to have the DHCP server handle leases on both the network segments, as DHCP packets can’t travel across the router. The broadcast DHCP packets are received by the relay agent and forward as unicast packets to the DHCP server.
+- The DHCP server doesn’t have any security mechanism. It can have unauthorized access to IP addresses by providing the credentials such as client identifiers that belong to other DHCP clients.
+- The name of the machine doesn’t change when an IP address is assigned.
+- In the absence of the DHCP server, the client cannot access the network.
