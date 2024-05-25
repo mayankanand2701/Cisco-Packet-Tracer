@@ -1,0 +1,5 @@
+Switch is a multicast networking device works under Datalink layer of OSI model that connects bunch of computers or devices in a network.
+
+How is Switch different from Hub?
+
+Hub is a broadcast device which sends data from one pc to all but switch is a multicast device which can send data to a particular pc you want.

@@ -1,0 +1,5 @@
+Router is a networking device works under network layer of OSI model and use to connect two or more different networks.
+
+How is Router different from switch or hub ?
+
+Hub and Switch are networking device use to connect pc or any devices on the same network but Router is a device use to connects two or more different network.

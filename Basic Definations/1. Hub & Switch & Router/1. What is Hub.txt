@@ -1,0 +1,9 @@
+Hub is a simple and cheap networking broadcast device that links multiple computers and devices together. It works under Physical Layer of OSI Model . Hubs can also be referred to as repeaters or concentrators, and they serve as the center of a local area network (LAN). In a hub, each connected device is on the same subnet and receives all data sent to the hub. The hub then forwards that data out to all other connected devices, creating an efficient system for sharing data between users.
+
+Data is sent from one device to another via the hub and can be exchanged between any two devices connected to the hub. In a hub network, all devices share bandwidth with each other, meaning that all resources are available to any connected device at any time.
+
+A hub network is usually best suited for small, localized networks that don't need to process large amounts of data. This type of network is simpler and more cost-effective to set up and maintain than other types of networks, making it great for home office or small business use.
+
+Network hubs generally do not have an IP address, as they are designed to be transparent and forward information between connected devices on the same network. This means that any device can send data through a hub without communicating directly with the hub itself. Additionally, a hub is typically unaware of the IP addresses of the devices it connects, making assigning an address unnecessary.
+
+Hub has a lot of wastage of Bandwidth as each data is transmitted to each of the connected device of the Hub.
