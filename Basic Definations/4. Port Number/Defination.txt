@@ -1,0 +1,20 @@
+In computer networking, a port number is a numerical identifier in a TCP/IP network that is used to identify a specific process or service on a networked device, such as a server or a computer. Port numbers allow different applications and services running on a single device to be uniquely identified and accessed over a network.
+
+Key Points about Port Numbers:
+
+Range:
+- Well-known Ports (0-1023): These are reserved for common services and protocols (e.g., HTTP uses port 80, HTTPS uses port 443, FTP uses port 21).
+- Registered Ports (1024-49151): These are assigned by the Internet Assigned Numbers Authority (IANA) for specific services and applications.
+- Dynamic/Private Ports (49152-65535): These are typically used for ephemeral ports and can be used by applications for temporary communication.
+
+Functionality:
+- Port numbers help direct incoming data to the correct application or service on a device.
+- They are used in combination with an IP address to form a network socket, which defines the endpoint of a connection.
+
+Usage:
+
+- TCP (Transmission Control Protocol) Ports: Used for reliable, connection-oriented services.
+- UDP (User Datagram Protocol) Ports: Used for connectionless services where speed is prioritized over reliability.
+
+Example:
+When you visit a website, your browser uses the domain name (which is translated into an IP address) and connects to the server's IP address on port 80 (for HTTP) or port 443 (for HTTPS). The server, listening on these ports, receives the request and sends back the appropriate web page.
